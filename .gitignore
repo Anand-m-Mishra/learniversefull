@@ -1,0 +1,57 @@
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Ignore node_modules directory and its contents
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+
+# Ignore macOS directory metadata files
+*.DS_Store
+
+# Ignore IntelliJ IDEA project files
+*.idea/
+
+# Ignore secret key files
+secret.key
+
+# Ignore files with the .env extension (environment variables)
+*.env
+
+# But don't ignore the .env.example file
+!*.env.example
+
+# Ignore the coverage directory and its contents
+coverage/
+
+# Ignore the dist directory and its contents (compiled code)
+dist/
+
+# Ignore the vendor directory and its contents (third-party libraries)
+vendor/
